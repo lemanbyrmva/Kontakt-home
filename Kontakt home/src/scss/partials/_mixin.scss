@@ -1,0 +1,19 @@
+@mixin Flexible ($justify:null,$align:null,$wrap:null, $direction:null,$gap:null ) {
+   display: flex;
+   justify-content: $justify;
+   align-items: $align;
+   flex-direction: $direction;
+   gap: $gap;
+   flex-wrap: $wrap;
+
+}
+
+@mixin Img($width:null, $height:null, $obj_fit:null, $obj_pos:null, $border:null) {
+   width: $width;
+   height: $height;
+   border: $border;
+   object-fit: $obj_fit;
+   object-position: $obj_pos;
+
+   
+}
